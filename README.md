@@ -6,39 +6,36 @@ latest tools and technologies. we are trying to implement
 our generative adversarial network to generate fake human 
 faces. Our generator and discriminator will use the keras’s 
 classic sequential modeling. 
-We proposed to use two sequential models, one as a 
-generator and another one as a discriminator to implement 
-our generative adversarial model. For implementing the 
-generator, we have used random noise as input data for the 
-generator. We have also used the Batch Normalization 
-technique and the Reshape module from the keras to resize 
-the data and normalize to train the generator properly.  We 
-have used the Leaky ReLU activation function for all the 
-layers except the output layer; in the output layer we have 
-used the tanh activation function for the output layer. We 
-have also used the loss function as the binary cross-entropy 
-for our generator model. 
-Our generator will receive feedback data from the 
-discriminator and based on the received feedback our 
-generator will be updated. On the other hand, our 
-discriminator is also implemented with the sequential 
-model. However, the main difference between our 
-generators is that after each epoch it does not learn, 
-meaning it will not update or train after each epoch. Our 
-discriminator’s main purpose is to identify the real and 
-8 
-fake image and give the feedback to the generator, so that 
-we will use the sequential model. In our discriminator’s 
-input data we have used both the generator produced data 
-and the real image from the CelebA dataset and it takes 
-both images and tries to identify the real and the fake 
-image.  
-Here, the model uses a total of four layers. As an input 
-layer we have taken the generated data and the real image 
-data and there are also two hidden dense layers along with 
-an output layer which produce binary values. Other than 
-the output layer we have used the Leaky ReLU activation 
-function in our model and as our output will be 
-classification type, so in the output layer we have used the 
-sigmoid function. For the loss function in our model we 
-have used the binary cross-entropy function.
+
+CONCLUSION:
+From our result and the loss function, we can see that, we 
+successfully created human faces from random noises 
+using limited computational power. However, the images 
+are not as good as the real life images. Overall, using our 
+low computational power we have tried to generate real 
+life fake human faces. For comparing this model’s results 
+and to see how it reacts with different sizes of images we 
+have tested it with three different sizes. At first, we tested it 
+using 48 * 48 sizes. At that time, the model did not give 
+that much good result though it generated fake human 
+faces having noises. And then, to improve the quality we 
+used 100*100 sizes. This time, the model performed quite 
+well, where it gave quite a good result. When we used 
+100*100 sizes of the generated images were very clear and 
+understandable. To get a better result, we then used 
+150*150 images. This time the model gave comparatively 
+better results than the previous two models. Each time we 
+ran our model at 100000 epochs. 
+Fake images can be used by police to track down people 
+who are involved in adultery.  
+As we know nowadays child and underage pornography is 
+alarming. To catch such people we can use computer 
+generated fake faces, that will be more ethical than  using 
+real images .  
+As we can see nowadays creating fake or edited images is 
+very easy. To identify these kinds of images, we can build a 
+50 
+model. For this model to be trained we can use the 
+computer generated images to identify the real and fake 
+images.  
+We use the fake computer generated images in v
