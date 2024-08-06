@@ -34,8 +34,13 @@ generated fake faces, that will be more ethical than  using
 real images .  
 As we can see nowadays creating fake or edited images is 
 very easy. To identify these kinds of images, we can build a 
-50 
-model. For this model to be trained we can use the 
+50 model. For this model to be trained we can use the 
 computer generated images to identify the real and fake 
 images.  
-We use the fake computer generated images in v
+We use the fake computer generated images in visual art 
+and the advertising industries. These images have a huge 
+role in computer games.  
+In computer and mobile games along with play station 
+games, these images can be used.  
+As augmented reality and virtual reality are growing 
+rapidly, we can use these computer generated fake images.
